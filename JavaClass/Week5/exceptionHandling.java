@@ -2,7 +2,8 @@
 class exceptionHandling{
      public static void main(String[] args)
      {
-          int a, d;
+          int a=0, d;
+          System.out.println("Ignore this"+a); // Ingnore this line
 
           try
           {
