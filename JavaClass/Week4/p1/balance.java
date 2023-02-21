@@ -1,4 +1,4 @@
-package p1;
+package JavaClass.Week4.p1;
 
 public class balance {
      String name;

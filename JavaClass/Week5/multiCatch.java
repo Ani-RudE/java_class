@@ -1,3 +1,7 @@
+package JavaClass.Week5;
+
+import java.io.Console;
+
 public class multiCatch {
      public static void main(String args[])
      {
@@ -7,6 +11,7 @@ public class multiCatch {
                int b=42/a;
                int c[]={5};
                c[25]=10;
+               System.out.println("b = "+b);
           }
           catch (ArithmeticException e)
           {
