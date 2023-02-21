@@ -1,4 +1,3 @@
-package 
 public class stringEx {
      public static void main(String args[])
      {
