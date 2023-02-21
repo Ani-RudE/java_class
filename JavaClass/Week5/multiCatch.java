@@ -1,7 +1,4 @@
-package JavaClass.Week5;
-
-import java.io.Console;
-
+// package JavaClass.Week5;
 public class multiCatch {
      public static void main(String args[])
      {

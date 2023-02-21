@@ -1,4 +1,4 @@
-package JavaClass.Week5.Tuesday;
+// package JavaClass.Week5.Tuesday;
 class exceptionHandling{
      public static void main(String[] args)
      {
