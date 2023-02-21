@@ -44,5 +44,3 @@ public class multilevelHiearchy{
           scan.close();
 	}
 }
-
-// https://classroom.google.com/c/NTE2MTY5MjYxNTMz/a/NTkzOTQ0NjcyMTA5/details
