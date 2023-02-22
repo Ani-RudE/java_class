@@ -1,4 +1,4 @@
-// package JavaClass.Week4.Tuesday;
+package JavaClass.Week4;
 //Methods overriding
 class override_A{
      int i, j;

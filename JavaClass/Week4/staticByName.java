@@ -1,3 +1,5 @@
+package JavaClass.Week4;
+
 class staticDemo {
      static int a=12;
      static int b=14;

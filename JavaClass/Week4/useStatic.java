@@ -1,3 +1,5 @@
+package JavaClass.Week4;
+
 class useStatic
 {
      static int a=3;

@@ -1,3 +1,5 @@
+package JavaClass.Week4;
+
 public class stringEx {
      public static void main(String args[])
      {

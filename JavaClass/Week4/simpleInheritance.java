@@ -1,3 +1,5 @@
+package JavaClass.Week4;
+
 class A_simpleInheritance{
      int i, j;
      void showij()
