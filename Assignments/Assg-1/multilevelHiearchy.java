@@ -1,4 +1,3 @@
-package Assignments;
 // Develop the java code for Multilevel Hierarchy
 import java.util.*;
 
