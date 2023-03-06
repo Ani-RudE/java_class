@@ -1,5 +1,5 @@
-package JavaClass.Week7;
-
+//Creatiing Multi Thread
+// package JavaClass.Week7;
 class NewThread implements Runnable
 {
      String name;
@@ -25,6 +25,7 @@ class NewThread implements Runnable
           {
                System.out.println(name+"interrupted");
           }
+
           System.out.println(name+"excited");
      }
 }
