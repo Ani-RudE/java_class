@@ -1,12 +1,15 @@
+//Creating a thread
 package JavaClass.Week7;
+
+// import java.util.*;
 
 class NewThread implements Runnable
 {
      Thread t;
      NewThread()
      {
-          t=new Thread (this, "demo thread");
-          System.out.println("Child Thread: "+t);
+/* Thread */ t=new Thread (this, "demo thread");
+             System.out.println("Child Thread: "+t);
      }
 
      static void run()
@@ -23,8 +26,8 @@ class NewThread implements Runnable
                System.out.println("Child Thread interrupted");
           }
      }
-
-     System.out.println("Exciting Child Thread");
+     
+     System.out.println("Child Thread Exception");
 }
 
 class threadDemo{
