@@ -1,3 +1,5 @@
+package JavaClass.Week6;
+
 class finallyDemo {
      static void procA() {
           try {

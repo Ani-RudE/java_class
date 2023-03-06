@@ -1,4 +1,6 @@
 //Throws keyword
+package JavaClass.Week6;
+
 class throwsDemo{
      static void throwone() throws IllegalAccessException
      {

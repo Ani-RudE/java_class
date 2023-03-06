@@ -1,3 +1,5 @@
+package JavaClass.Week6;
+
 class nestedTry
 {
      public static void main(String[] args)
