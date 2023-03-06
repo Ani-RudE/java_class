@@ -1,5 +1,5 @@
-//Creatiing Multi Thread
-// package JavaClass.Week7;
+//Creating Multi Thread
+package JavaClass.Week7;
 class NewThread implements Runnable
 {
      String name;
