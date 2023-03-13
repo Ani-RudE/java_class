@@ -1,29 +1,32 @@
-//Producer consumer model
+//Producer consumer model (or) Inter Thread Communication
 package JavaClass.Week8;
 
 class Buffer
 {
      int a;
-     boolean produced = false;
+     boolean produced=false;
 
      public synchronized void produce(int x)
      {
           if (produced) {
                System.out.println("Producer is waiting");
-               try {
+               try
+               {
                     wait();
-               } catch (Exception e) {
+               }
+               catch (Exception e)
+               {
                     System.out.println(e);
                }
           }
 
-          a = x;
-          System.out.println("Product " + a + " produced");
+          a=x;
+          System.out.println("Product "+a+" produced");
           produced = true;
           notify();
      }
 
-     public synchronized void consume(int y)
+     public synchronized void consume(int y) //Should not need a parameter to be passed over here, should still work without it.
      {
           if (!produced)
           {
