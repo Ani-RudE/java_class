@@ -13,9 +13,10 @@ class IOTest {
                FileOutputStream fos=new FileOutputStream("D://Coding//Java//JavaC//JavaClass//Week9//data.txt");
                BufferedOutputStream bos=new BufferedOutputStream(fos);
                //fos is connected to the data.txt file
-               
+               //bos wraps fos, bos is outetr object which wraps the inner object of fos
+
                byte b[]=str.getBytes();
-               bos.write(b);
+               bos.write(b); //Reference to the file, writes the content of the byte "b" to the "bos".
                bos.flush(); //Writes the data into the file
                bos.close(); //Closes the fle
                fos.close(); 
