@@ -16,7 +16,7 @@ class IOTest {
                int i;
                while ((i=bis.read())!=-1)
                {
-                    System.out.println((char)i); //Char i converts ascii value of i to character
+                    System.out.print((char)i); //Char i converts ascii value of i to character
                }
 
                bis.close();
