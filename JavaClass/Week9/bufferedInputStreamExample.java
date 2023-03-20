@@ -1,6 +1,5 @@
 package JavaClass.Week9;
 
-import java.util.*;
 import java.io.FileInputStream;
 import java.io.BufferedInputStream;
 
@@ -13,15 +12,14 @@ class IOTest {
           {
                FileInputStream fis=new FileInputStream("D://Coding//Java//JavaC//JavaClass//Week9//data.txt");
                BufferedInputStream bis=new BufferedInputStream(fis);
-               Scanner in=new Scanner(System.in);
 
                int i;
-               while ((i=in.read())!=-1)
+               while ((i=bis.read())!=-1)
                {
-                    System.out.println((char)i);
+                    System.out.println((char)i); //Char i converts ascii value of i to character
                }
 
-               in.close();
+               bis.close();
           }
           catch (Exception e)
           {
