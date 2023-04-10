@@ -23,13 +23,13 @@ class Test
      {
           try
           {
-               FileOutputStream fos=new FileOutputStream("E:\\student1.txt");
+               FileOutputStream fos=new FileOutputStream("E:\\student1.ser"); //If not working, try "student1.txt"
                ObjectOutputStream oos=new ObjectOutputStream(fos);
 
                oos.writeObject(stu);
                oos.close();
                fos.close();
-               System.out.println("Serialized data written to E:\\student1.txt");
+               System.out.println("Serialized data written to E:\\student1.ser");
           }
           catch (IOException e)
           {
