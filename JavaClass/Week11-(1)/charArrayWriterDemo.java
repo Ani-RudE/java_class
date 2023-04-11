@@ -1,5 +1,3 @@
-package JavaClass.Week11;
-
 import java.io.CharArrayWriter;
 import java.io.IOException;
 
