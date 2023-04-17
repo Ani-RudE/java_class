@@ -1,5 +1,4 @@
 //Serialization
-package JavaClass.Week11;
 
 import java.io.*;
 

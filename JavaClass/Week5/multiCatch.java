@@ -1,5 +1,3 @@
-package JavaClass.Week5;
-
 public class multiCatch {
      public static void main(String args[])
      {
