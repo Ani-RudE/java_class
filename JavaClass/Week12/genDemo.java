@@ -33,6 +33,8 @@ class genDemo
           //      ob=o //ob gets value of 88
           // }
 
+          // "88's" data type is "T"
+
           int v=iob.getOb();
           System.out.println("Value 1: "+v);
           Gen <String> strob=new Gen<String>("Generics");
