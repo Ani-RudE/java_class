@@ -1,5 +1,5 @@
 //Obtaining an array from ArrayList class
-// package JavaClass.Week12; 
+package JavaClass.Week12; 
 
 import java.util.*;
 
