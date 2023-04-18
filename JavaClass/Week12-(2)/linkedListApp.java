@@ -3,21 +3,23 @@ import java.util.*;
 
 class linkedListApp
 {
-     public static void main(String[] args)
+     public static void main(String[] args) throws IndexOutOfBoundsException
      {
           LinkedList<String> l1=new LinkedList<String>();
           
           l1.add("F");
           l1.add("B");
           l1.add("C");
-          l1.add("A");
-          l1.add("Z");
+          l1.addFirst("A");
+          l1.addLast("Z");
           System.out.println("Original contents of l1: "+l1);
 
           l1.remove("B");
           l1.remove(2);
           System.out.println("Contents of l1 after removing: "+l1);
 
+          l1.add("K");
+          l1.add("L");
           l1.removeFirst();
           l1.removeLast();
           System.out.println("Contents of l1 after removing first and last: "+l1);
