@@ -1,6 +1,4 @@
 //Rrthrowing exception
-package JavaClass.Week6;
-
 public class throwDemo{
      static void throwone()
      {
