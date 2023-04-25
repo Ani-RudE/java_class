@@ -12,5 +12,5 @@ class priorityQueueDemo {
           System.out.println("P.Q.: "+numbers);
           numbers.offer(1);
           System.out.println("P.Q.: "+numbers);
-     }
+     
 }
