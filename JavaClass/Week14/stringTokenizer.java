@@ -4,11 +4,13 @@ package Week14;
 import java.util.StringTokenizer;
 
 public class stringTokenizer {
-     public static void main(String[] args) {
+     public static void main(String[] args)
+     {
           StringTokenizer st = new StringTokenizer("This is a java program");
           System.out.println("The tokens are:");
 
-          while (st.hasMoreTokens()) {
+          while (st.hasMoreTokens())
+          {
                System.out.println(st.nextToken());
           }
      }
