@@ -11,7 +11,7 @@ public class stringTokenizer {
 
           while (st.hasMoreTokens())
           {
-               System.out.println(st.nextToken());
+               System.out.println(st.nextToken())
           }
      }
 }
