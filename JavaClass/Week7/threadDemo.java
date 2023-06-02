@@ -1,6 +1,6 @@
 //Creating a thread
-/*
-package JavaClass.Week7;
+
+// package JavaClass.Week7;
 
 // import java.util.*;
 
@@ -52,6 +52,6 @@ class threadDemo{
           System.out.println("Exiting Main Thread");
      }
 }
-*/
+
 
 // https://docs.google.com/document/d/133qz5WTsjd66ODYaFABROKH969400f44qRxmIKUQCsg/edit

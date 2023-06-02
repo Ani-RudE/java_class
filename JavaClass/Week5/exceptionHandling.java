@@ -14,6 +14,7 @@ class exceptionHandling{
           catch (ArithmeticException e)
           {
                System.out.println("Division by zero");
+               System.out.println(e);
           }
 
           System.out.println("This is after catch block");

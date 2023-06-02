@@ -2,11 +2,11 @@ package JavaClass.Week3;
 class Box2{
      double w, d, h;
 
-     Box2(double wd, double dp, double ht)
+     Box2(double w, double d, double h)
      {
-          this.w=wd;
-          this.d=dp;
-          this.h=ht;
+          this.w=w;
+          this.d=d;
+          this.h=h;
      }
 
      double volume()

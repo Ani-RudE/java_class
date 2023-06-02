@@ -76,7 +76,7 @@
     interface <interface_name>{  
         //declare constant fields  
         //declare methods that abstract by default.  
-    }
+
 
 
     -->Exception Handling--

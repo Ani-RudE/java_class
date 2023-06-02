@@ -18,5 +18,9 @@ public class multiCatch {
           {
                System.out.println("Array IOB: "+e);
           }
+          finally
+          {
+               System.out.print("Ani");
+          }
      }
 }
